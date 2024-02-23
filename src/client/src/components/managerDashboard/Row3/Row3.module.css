@@ -1,0 +1,41 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--bg-light);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1rem;
+}
+
+.heading {
+  margin-top: 0.5rem;
+  font-size: var(--font-size-medium);
+  font-weight: 500;
+  font-family: var(--font-fira-code);
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  border-spacing: 15px;
+  border-collapse: separate;
+  font-size: var(--font-size-normal);
+  font-family: var(--font-inter-regular);
+  /* height: 50px; */
+}
+
+.table thead tr th {
+  opacity: 0.6;
+  font-weight: 500;
+  font-family: var(--font-fira-code);
+}
+
+.type_text {
+  font-family: var(--font-fira-code);
+}

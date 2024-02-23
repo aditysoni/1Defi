@@ -1,0 +1,52 @@
+.main {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  background: linear-gradient(90deg, #2a2a2a 28.39%, #232323 100.3%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-height: 9vh;
+}
+
+.logo {
+  text-align: center;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: var(--font-fira-code);
+  font-size: var(--font-size-big);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+
+.wallet_container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.wallet_address {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: white;
+  background: #343434;
+  padding: 0.2rem 0.3rem 0.2rem 0.6rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  font-size: var(--font-size-regular);
+  font-family: var(--font-inter-regular);
+  border-radius: 50px;
+}
+
+.chain_container {
+  padding-top: 0.2rem;
+  width: 16%;
+}
+
+.chain_container img {
+  width: 100%;
+}
