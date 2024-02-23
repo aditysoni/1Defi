@@ -1,0 +1,122 @@
+.section {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.left {
+  max-width: 55%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.left_heading {
+  font-family: var(--font-fira-code);
+  font-size: var(--font-size-medium);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chart_container {
+  height: 400;
+}
+
+.fund_view {
+  width: 35%;
+  margin-right: 5%;
+}
+.fund_view img {
+  width: 100%;
+}
+.fund_details {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.each_fund {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-normal);
+}
+
+.fund_name {
+  max-width: 50%;
+  opacity: 0.6;
+}
+.fund_amt {
+  max-width: 50%;
+  font-weight: 600;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.fund_leaderboard {
+  background-color: var(--bg-light);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.fund_leaderboard_top {
+  display: flex;
+}
+
+.fund_leaderboard_top span {
+  text-align: center;
+  padding: 0.7rem;
+  font-family: var(--font-fira-code);
+  font-weight: 400;
+  font-size: var(--font-size-normal);
+}
+
+.fund_leaderboard_value {
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  /* margin-left: 1rem; */
+}
+
+.fund_chart {
+  position: absolute;
+  right: 3%;
+  top: 35%;
+}
+
+.fund_pnl {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fund_pnl_heading {
+  color: var(--color-light);
+  font-weight: 500;
+  font-family: var(--font-fira-code);
+}
+
+.fund_pnl_dollar {
+  font-weight: 500;
+}
+
+.fund_pnl_percentage {
+  background: rgba(38, 171, 95, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+}
